@@ -1,0 +1,113 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "doacoes",
+      "path": "https://raw.githubusercontent.com/transparencia-mg/inventario-de-dados/master/doacoes-ao-governo/doacoescomodatos20200520.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "ANO",
+            "type": "number",
+            "format": "default",
+            "title": "Ano",
+            "description": "Ano de publicação no Diário Oficial do Estado do ato que autorizou o recebimento de doação ou de bem em comodato"
+          },
+          {
+            "name": "CODIGO_ORGAO_ENTIDADE",
+            "type": "number",
+            "format": "default",
+            "description": "Código da unidade orçamentária do órgão ou entidade beneficiada",
+            "title": "Código Órgão Entidade"
+          },
+          {
+            "name": "ORGAO_ENTIDADE",
+            "type": "string",
+            "format": "default",
+            "description": "Unidade orçamentária do órgão ou entidade beneficiada",
+            "title": "Órgão Entidade"
+          },
+          {
+            "name": "CNPJ_CPF_DOADOR_COMODANTE",
+            "type": "string",
+            "format": "default",
+            "title": "CNPJ CPF Doador",
+            "description": "CNPJ ou CPF do doador ou comodante."
+          },
+          {
+            "name": "DOADOR_COMODANTE",
+            "type": "string",
+            "format": "default",
+            "title": "Doador Comodante",
+            "description": "Nome do doador ou comodante."
+          },
+          {
+            "name": "OBJETO",
+            "type": "string",
+            "format": "default",
+            "title": "Objeto",
+            "description": "Objeto da doação ou comodato."
+          },
+          {
+            "name": "QUANTITATIVO",
+            "type": "string",
+            "format": "default",
+            "title": "Quantitativo",
+            "description": "Quantitativo, quando for o caso, do objeto da doação ou comodato."
+          },
+          {
+            "name": "VIGENCIA",
+            "type": "string",
+            "format": "default",
+            "title": "Vigência",
+            "description": "Vigência do Comodato. "
+          },
+          {
+            "name": "VALOR",
+            "type": "string",
+            "format": "default",
+            "title": "Valor",
+            "description": "Valor estimado do bem ou serviço doado ou oferecido em comodato."
+          },
+          {
+            "name": "PROCESSO_SEI",
+            "type": "string",
+            "format": "default",
+            "title": "Processo SEI",
+            "description": "Número do processo eletrônico no Sistema Eletrônico de Informações (SEI) que identifica a avaliação das propostas de doação ou oferta de bens em comodato realizada pela Secretaria de Estado de Planejamento e Gestão (SEPLAG).\n"
+          },
+          {
+            "name": "INTEGRA_TERMO_DOACAO_COMODATO",
+            "type": "string",
+            "format": "default",
+            "title": "Íntegra Termo Doação",
+            "description": "Link para Íntegra do termo de doação ou comodato."
+          },
+          {
+            "name": "DATA_ATUALIZACAO",
+            "type": "number",
+            "format": "default",
+            "title": "Data Atualização",
+            "description": "Data do upload do arquivo"
+          }
+        ]
+      }
+    }
+  ],
+  "keywords": [
+    "governo",
+    "doações",
+    "patrimônio"
+  ],
+  "name": "doacoes",
+  "title": "Doações ao governo",
+  "description": "Contém relação das doações e comodatos para o Governo de Minas Gerais, em consonância com o art. 18, § único do Decreto nº 47.611/2019. A atualização desta relação se dará por intermédio da Diretoria de Compras do Centro de Serviços Compartilhados da Secretaria de Estado de Planejamento e Gestão, após a publicação de cada termo.",
+  "homepage": "https://raw.githubusercontent.com/transparencia-mg/",
+  "contributors": [
+    {
+      "title": "Andre Amorim",
+      "role": "author"
+    }
+  ]
+}
