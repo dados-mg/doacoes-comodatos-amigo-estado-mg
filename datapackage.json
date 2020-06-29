@@ -3,7 +3,11 @@
   "resources": [
     {
       "name": "doacoes-comodatos.csv",
+<<<<<<< HEAD
       "path": "https://raw.githubusercontent.com/transparencia-mg/dados-mg/doacoes-realizadas-ao-governo/doacoes-comodatos.csv",
+=======
+      "path": "https://raw.githubusercontent.com/dados-mg/doacoes-realizadas-ao-governo/doacoes-comodatos.csv",
+>>>>>>> 4f36d43... adequa nomes arquivos
       "profile": "tabular-data-resource",
       "resource type": "text/csv",
       "schema": {
