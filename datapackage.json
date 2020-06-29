@@ -2,8 +2,8 @@
   "profile": "tabular-data-package",
   "resources": [
     {
-      "name": "doacoes.csv",
-      "path": "https://raw.githubusercontent.com/transparencia-mg/dados-mg/doacoes-realizadas-ao-governo/doacoes.csv",
+      "name": "doacoes-comodatos.csv",
+      "path": "https://raw.githubusercontent.com/transparencia-mg/dados-mg/doacoes-realizadas-ao-governo/doacoes-comodatos.csv",
       "profile": "tabular-data-resource",
       "resource type": "text/csv",
       "schema": {
@@ -96,8 +96,8 @@
       }
     },
     {
-      "name": "doacoes.xls",
-      "path": "https://raw.githubusercontent.com/transparencia-mg/dados-mg/doacoes-realizadas-ao-governo/doacoescomodatos.xls",
+      "name": "doacoes-comodatos.xls",
+      "path": "https://raw.githubusercontent.com/transparencia-mg/dados-mg/doacoes-realizadas-ao-governo/doacoes-comodatos.xls",
       "profile": "tabular-data-resource",
       "resource type": "xls",
       "schema": {
