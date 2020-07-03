@@ -3,11 +3,7 @@
   "resources": [
     {
       "name": "doacoes-comodatos.csv",
-<<<<<<< HEAD
-      "path": "https://raw.githubusercontent.com/transparencia-mg/dados-mg/doacoes-realizadas-ao-governo/doacoes-comodatos.csv",
-=======
-      "path": "https://raw.githubusercontent.com/dados-mg/doacoes-realizadas-ao-governo/doacoes-comodatos.csv",
->>>>>>> 4f36d43... adequa nomes arquivos
+      "path": "data/doacoes-comodatos.csv",
       "profile": "tabular-data-resource",
       "resource type": "text/csv",
       "schema": {
@@ -101,7 +97,7 @@
     },
     {
       "name": "doacoes-comodatos.xls",
-      "path": "https://raw.githubusercontent.com/transparencia-mg/dados-mg/doacoes-realizadas-ao-governo/doacoes-comodatos.xls",
+      "path": "data/doacoes-comodatos.xls",
       "profile": "tabular-data-resource",
       "resource type": "xls",
       "schema": {
@@ -202,7 +198,7 @@
   "name": "doacoes-realizadas-ao-governo",
   "title": "Doações realizadas ao governo",
   "description": "Contém relação das doações e comodatos para o Governo de Minas Gerais, em consonância com o art. 18, § único do Decreto nº 47.611/2019. A atualização desta relação se dará por intermédio da Diretoria de Compras do Centro de Serviços Compartilhados da Secretaria de Estado de Planejamento e Gestão, após a publicação de cada termo.",
-  "homepage": "https://github.com/dados-mg/doacoes-realizadas-ao-governo",
+  "homepage": "http://dados.mg.gov.br/dataset/doacoes-realizadas-ao-governo",
   "private": "false",
   "state": "active",
   "commit": "668a8b8c66d874338fd6c2de67d330a8e6953bec",
