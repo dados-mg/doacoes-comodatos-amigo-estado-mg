@@ -202,6 +202,63 @@
   "private": "false",
   "state": "active",
   "commit": "175495728fc60bc9c9c1fdd987a52d717188a936",
+  "sources": [{
+    "name": "INSTITUTO LEMANN/SEE - Doação de Serviços",
+  "path": "http://planejamento.mg.gov.br/documento/instituto-lemannsee-doacao-de-servicos"
+  },
+  {
+    "name": "TROPOS/SEDECTES - Doação de Serviços",
+  "path": "http://planejamento.mg.gov.br/documento/tropossedectes-doacao-de-servicos"
+  },
+  {
+    "name": "Macaca Filmes e SEDESE - Doações de Serviços",
+  "path": "http://planejamento.mg.gov.br/documento/macaca-filmes-e-sedese-doacoes-de-servicos"
+  },
+  {
+    "name": "CRAFTY BRASIL SOLUÇÕES TECNOLÓGICAS LTDA E SEDESE - Doação de Serviços",
+  "path": "http://planejamento.mg.gov.br/documento/crafty-brasil-solucoes-tecnologicas-ltda-e-sedese-doacao-de-servicos"
+  },
+  {
+    "name": "INSTITUTO ÁQUILA DE GESTÃO e SEPLAG - Doação de Serviços",
+  "path": "http://planejamento.mg.gov.br/documento/instituto-aquila-de-gestao-e-seplag-doacao-de-servicos"
+  },
+  {
+    "name": "GOVERNANÇA CRIATIVA-SMARTGOV e ARSAE MG - Doação de Serviços",
+  "path": "http://planejamento.mg.gov.br/documento/governanca-criativa-smartgov-e-arsae-mg-doacao-de-servicos"
+  },
+  {
+    "name": "FRAZILLIO & FERRONI INFORMÁTICA COMÉRCIO E SERVIÇOS LTDA e SEINFRA - Doação de Serviços",
+  "path": "http://planejamento.mg.gov.br/documento/frazillio-ferroni-informatica-comercio-e-servicos-ltda-e-seinfra-doacao-de-servicos"
+  },
+  {
+    "name": "CORI/MG e FEDERAMINAS/SEPLAG - Doação de serviços",
+  "path": "http://planejamento.mg.gov.br/documento/corimg-e-federaminasseplag-doacao-de-servicos"
+  },
+  {
+    "name": "IMPROVE/SEDECTES - Doação de Serviços",
+  "path": "http://planejamento.mg.gov.br/documento/improvesedectes-doacao-de-servicos"
+  },
+  {
+    "name": "BOSTON CONSULTING GROUP BRASIL e SEPLAG - Doação de Serviços",
+  "path": "http://planejamento.mg.gov.br/documento/boston-consulting-group-brasil-e-seplag-doacao-de-servicos"
+  },
+  {
+    "name": "ARCADUZ NEGOCIAÇÕES EIRELI e SEPLAG - Doações de Serviços",
+  "path": "http://planejamento.mg.gov.br/documento/arcaduz-negociacoes-eireli-e-seplag-doacoes-de-servicos"
+  },
+  {
+    "name": "INSTITUTO AQUILA/SEPLAG - Doação de Serviços",
+  "path": "http://planejamento.mg.gov.br/documento/instituto-aquilaseplag-doacao-de-servicos"
+  },
+  {
+    "name": "JUNGLE CONSULTORIA E SOLUÇÕES SOCIAIS LTDA - ME e SEDESE - Doação de Serviços",
+  "path": "http://planejamento.mg.gov.br/documento/jungle-consultoria-e-solucoes-sociais-ltda-me-e-sedese-doacao-de-servicos-0"
+  },
+  {
+    "name": "LIGA ACELERADORA DE PROJETOS E PARTICIPAÇÕES LTDA e SEDE - Doação de Serviços",
+  "path": "http://planejamento.mg.gov.br/documento/liga-aceleradora-de-projetos-e-participacoes-ltda-e-sede-doacao-de-servicos"
+  },
+  ],
   "contributors": [
   {
   "title": "Diretoria de Transparência Ativa",
