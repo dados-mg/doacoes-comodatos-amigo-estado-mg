@@ -201,8 +201,9 @@
   "homepage": "http://dados.mg.gov.br/dataset/doacoes-realizadas-ao-governo",
   "private": "false",
   "state": "active",
-  "commit": "175495728fc60bc9c9c1fdd987a52d717188a936",
-  "sources": [{
+  "commit": "5574d1b12f21dbe27dcf4bce4b198c26e90ba3d8",
+  "sources": [
+  {
     "name": "INSTITUTO LEMANN/SEE - Doação de Serviços",
   "path": "http://planejamento.mg.gov.br/documento/instituto-lemannsee-doacao-de-servicos"
   },
