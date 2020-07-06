@@ -5,7 +5,7 @@
       "name": "doacoes-comodatos.csv",
       "path": "data/doacoes-comodatos.csv",
       "profile": "tabular-data-resource",
-      "resource type": "text/csv",
+      "resourceType": "text/csv",
       "schema": {
         "fields": [
           {
@@ -99,7 +99,7 @@
       "name": "doacoes-comodatos.xls",
       "path": "data/doacoes-comodatos.xls",
       "profile": "tabular-data-resource",
-      "resource type": "xls",
+      "resourceType": "xls",
       "schema": {
         "fields": [
           {
