@@ -205,13 +205,13 @@
   "contributors": [
   {
   "title": "Diretoria de Transparência Ativa",
-  "path": "dados.mg.gov.br",
+  "path": "http://cge.mg.gov.br/a-cge/quem-e-quem/subcontroladoria-de-transparencia-e-integridade",
   "role": "publisher",
   "email": "transparencia@cge.mg.gov.br"
   },
   {
-  "title": "Diretoria de Compras do Centro de Serviços Compartilhados",
-  "path": "http://www.planejamento.mg.gov.br/busca-documentos?texto=&shs_term_node_tid_depth=2365&field_tags_tid=&date_filter%255Bmin%255D%255Bdate%255D=&date_filter%255Bmax%255D%255Bdate%255D=",
+  "title": "Central de Compras do Centro de Serviços Compartilhados",
+  "path": "http://www.seplag.mg.gov.br/quem-e-quem/35",
   "role": "author",
   "email": "amigodoestado@planejamento.mg.gov.br"
   }
