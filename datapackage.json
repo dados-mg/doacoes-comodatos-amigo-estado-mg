@@ -201,6 +201,7 @@
   "homepage": "http://dados.mg.gov.br/dataset/doacoes-realizadas-ao-governo",
   "private": "false",
   "state": "active",
+  "update":"true",
   "commit": "5574d1b12f21dbe27dcf4bce4b198c26e90ba3d8",
   "sources": [
   {
