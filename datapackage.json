@@ -2,8 +2,8 @@
   "profile": "tabular-data-package",
   "resources": [
     {
-      "name": "doacoes-comodatos.csv",
-      "path": "data/doacoes-comodatos.csv",
+      "name": "doacoes-comodatos-amigo-estado-mg",
+      "path": "data/doacoes-comodatos-amigo-estado-mg.csv",
       "profile": "tabular-data-resource",
       "resourceType": "text/csv",
       "schema": {
@@ -92,194 +92,21 @@
             "title": "Data Atualização",
             "description": "Data do upload do arquivo"
           }
-        ]
+        ],
+        "missingValues": ["NA"]
       }
     },
-    {
-      "name": "doacoes-comodatos.xls",
-      "path": "data/doacoes-comodatos.xls",
-      "profile": "tabular-data-resource",
-      "resourceType": "xls",
-      "schema": {
-        "fields": [
-          {
-            "name": "ANO",
-            "type": "number",
-            "format": "default",
-            "title": "Ano",
-            "description": "Ano de publicação no Diário Oficial do Estado do ato que autorizou o recebimento de doação ou de bem em comodato"
-          },
-          {
-            "name": "CODIGO_ORGAO_ENTIDADE",
-            "type": "number",
-            "format": "default",
-            "description": "Código da unidade orçamentária do órgão ou entidade beneficiada",
-            "title": "Código Órgão Entidade"
-          },
-          {
-            "name": "ORGAO_ENTIDADE",
-            "type": "string",
-            "format": "default",
-            "description": "Unidade orçamentária do órgão ou entidade beneficiada",
-            "title": "Órgão Entidade"
-          },
-          {
-            "name": "CNPJ_CPF_DOADOR_COMODANTE",
-            "type": "string",
-            "format": "default",
-            "title": "CNPJ CPF Doador",
-            "description": "CNPJ ou CPF do doador ou comodante."
-          },
-          {
-            "name": "DOADOR_COMODANTE",
-            "type": "string",
-            "format": "default",
-            "title": "Doador Comodante",
-            "description": "Nome do doador ou comodante."
-          },
-          {
-            "name": "OBJETO",
-            "type": "string",
-            "format": "default",
-            "title": "Objeto",
-            "description": "Objeto da doação ou comodato."
-          },
-          {
-            "name": "QUANTITATIVO",
-            "type": "string",
-            "format": "default",
-            "title": "Quantitativo",
-            "description": "Quantitativo, quando for o caso, do objeto da doação ou comodato."
-          },
-          {
-            "name": "VIGENCIA",
-            "type": "string",
-            "format": "default",
-            "title": "Vigência",
-            "description": "Vigência do Comodato. "
-          },
-          {
-            "name": "VALOR",
-            "type": "string",
-            "format": "default",
-            "title": "Valor",
-            "description": "Valor estimado do bem ou serviço doado ou oferecido em comodato."
-          },
-          {
-            "name": "PROCESSO_SEI",
-            "type": "string",
-            "format": "default",
-            "title": "Processo SEI",
-            "description": "Número do processo eletrônico no Sistema Eletrônico de Informações (SEI) que identifica a avaliação das propostas de doação ou oferta de bens em comodato realizada pela Secretaria de Estado de Planejamento e Gestão (SEPLAG).\n"
-          },
-          {
-            "name": "INTEGRA_TERMO_DOACAO_COMODATO",
-            "type": "string",
-            "format": "default",
-            "title": "Íntegra Termo Doação",
-            "description": "Link para Íntegra do termo de doação ou comodato."
-          },
-          {
-            "name": "DATA_ATUALIZACAO",
-            "type": "number",
-            "format": "default",
-            "title": "Data Atualização",
-            "description": "Data do upload do arquivo"
-          }
-        ]
-      }
-    }
   ],
   "keywords": [
     "governo",
     "doações",
     "patrimônio"
   ],
-  "name": "doacoes-realizadas-ao-governo",
-  "title": "Doações realizadas ao governo",
+  "name": "doacoes-comodatos-amigo-estado-mg",
+  "title": "Doações e comodatos recebidos pela Administração - Selo Amigo de Minas Gerais",
   "description": "Contém relação das doações e comodatos para o Governo de Minas Gerais, em consonância com o art. 18, § único do Decreto nº 47.611/2019. A atualização desta relação se dará por intermédio da Diretoria de Compras do Centro de Serviços Compartilhados da Secretaria de Estado de Planejamento e Gestão, após a publicação de cada termo.",
   "homepage": "http://dados.mg.gov.br/dataset/doacoes-realizadas-ao-governo",
   "private": "false",
   "state": "active",
-  "update":"true",
-  "commit": "5574d1b12f21dbe27dcf4bce4b198c26e90ba3d8",
-  "sources": [
-  {
-    "name": "INSTITUTO LEMANN/SEE - Doação de Serviços",
-  "path": "http://planejamento.mg.gov.br/documento/instituto-lemannsee-doacao-de-servicos"
-  },
-  {
-    "name": "TROPOS/SEDECTES - Doação de Serviços",
-  "path": "http://planejamento.mg.gov.br/documento/tropossedectes-doacao-de-servicos"
-  },
-  {
-    "name": "Macaca Filmes e SEDESE - Doações de Serviços",
-  "path": "http://planejamento.mg.gov.br/documento/macaca-filmes-e-sedese-doacoes-de-servicos"
-  },
-  {
-    "name": "CRAFTY BRASIL SOLUÇÕES TECNOLÓGICAS LTDA E SEDESE - Doação de Serviços",
-  "path": "http://planejamento.mg.gov.br/documento/crafty-brasil-solucoes-tecnologicas-ltda-e-sedese-doacao-de-servicos"
-  },
-  {
-    "name": "INSTITUTO ÁQUILA DE GESTÃO e SEPLAG - Doação de Serviços",
-  "path": "http://planejamento.mg.gov.br/documento/instituto-aquila-de-gestao-e-seplag-doacao-de-servicos"
-  },
-  {
-    "name": "GOVERNANÇA CRIATIVA-SMARTGOV e ARSAE MG - Doação de Serviços",
-  "path": "http://planejamento.mg.gov.br/documento/governanca-criativa-smartgov-e-arsae-mg-doacao-de-servicos"
-  },
-  {
-    "name": "FRAZILLIO & FERRONI INFORMÁTICA COMÉRCIO E SERVIÇOS LTDA e SEINFRA - Doação de Serviços",
-  "path": "http://planejamento.mg.gov.br/documento/frazillio-ferroni-informatica-comercio-e-servicos-ltda-e-seinfra-doacao-de-servicos"
-  },
-  {
-    "name": "CORI/MG e FEDERAMINAS/SEPLAG - Doação de serviços",
-  "path": "http://planejamento.mg.gov.br/documento/corimg-e-federaminasseplag-doacao-de-servicos"
-  },
-  {
-    "name": "IMPROVE/SEDECTES - Doação de Serviços",
-  "path": "http://planejamento.mg.gov.br/documento/improvesedectes-doacao-de-servicos"
-  },
-  {
-    "name": "BOSTON CONSULTING GROUP BRASIL e SEPLAG - Doação de Serviços",
-  "path": "http://planejamento.mg.gov.br/documento/boston-consulting-group-brasil-e-seplag-doacao-de-servicos"
-  },
-  {
-    "name": "ARCADUZ NEGOCIAÇÕES EIRELI e SEPLAG - Doações de Serviços",
-  "path": "http://planejamento.mg.gov.br/documento/arcaduz-negociacoes-eireli-e-seplag-doacoes-de-servicos"
-  },
-  {
-    "name": "INSTITUTO AQUILA/SEPLAG - Doação de Serviços",
-  "path": "http://planejamento.mg.gov.br/documento/instituto-aquilaseplag-doacao-de-servicos"
-  },
-  {
-    "name": "JUNGLE CONSULTORIA E SOLUÇÕES SOCIAIS LTDA - ME e SEDESE - Doação de Serviços",
-  "path": "http://planejamento.mg.gov.br/documento/jungle-consultoria-e-solucoes-sociais-ltda-me-e-sedese-doacao-de-servicos-0"
-  },
-  {
-    "name": "LIGA ACELERADORA DE PROJETOS E PARTICIPAÇÕES LTDA e SEDE - Doação de Serviços",
-  "path": "http://planejamento.mg.gov.br/documento/liga-aceleradora-de-projetos-e-participacoes-ltda-e-sede-doacao-de-servicos"
-  }
-  ],
-  "contributors": [
-  {
-  "title": "Diretoria de Transparência Ativa",
-  "path": "http://cge.mg.gov.br/a-cge/quem-e-quem/subcontroladoria-de-transparencia-e-integridade",
-  "role": "publisher",
-  "email": "transparencia@cge.mg.gov.br"
-  },
-  {
-  "title": "Central de Compras do Centro de Serviços Compartilhados",
-  "path": "http://www.seplag.mg.gov.br/quem-e-quem/35",
-  "role": "author",
-  "email": "amigodoestado@planejamento.mg.gov.br"
-  }
-  ],
-  "licenses": [
-  {
-  "name": "CC-BY-SA-4.0",
-  "title": "Creative Commons Attribution Share-Alike 4.0",
-  "path": "https://creativecommons.org/licenses/by-sa/4.0/"
-  }
- ]
+  "update":"true"
 }
