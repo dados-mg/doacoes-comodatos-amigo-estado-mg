@@ -5,7 +5,6 @@
       "name": "doacoes-comodatos-amigo-estado-mg",
       "path": "data/doacoes-comodatos-amigo-estado-mg.csv",
       "profile": "tabular-data-resource",
-      "resourceType": "text/csv",
       "schema": {
         "fields": [
           {
