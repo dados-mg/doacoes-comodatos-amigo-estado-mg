@@ -2,10 +2,14 @@
   "profile": "tabular-data-package",
   "resources": [
     {
+      "profile": "tabular-data-resource",
       "name": "doacoes-comodatos-amigo-estado-mg",
       "path": "data/doacoes-comodatos-amigo-estado-mg.csv",
-      "profile": "tabular-data-resource",
-      "resourceType": "text/csv",
+      "title": "Doações e comodatos recebidos pela Administração - Selo Amigo de Minas Gerais",
+      "description": "Contém relação das doações e comodatos para o Governo de Minas Gerais, em consonância com o art. 18, § único do Decreto nº 47.611/2019",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
       "schema": {
         "fields": [
           {
@@ -87,13 +91,16 @@
           },
           {
             "name": "DATA_ATUALIZACAO",
-            "type": "number",
+            "type": "date",
             "format": "default",
             "title": "Data Atualização",
             "description": "Data do upload do arquivo"
           }
         ],
         "missingValues": ["NA"]
+      },
+      "dialect": {
+      "delimiter": ";"
       }
     }
   ],
@@ -105,8 +112,6 @@
   "name": "doacoes-comodatos-amigo-estado-mg",
   "title": "Doações e comodatos recebidos pela Administração - Selo Amigo de Minas Gerais",
   "description": "Contém relação das doações e comodatos para o Governo de Minas Gerais, em consonância com o art. 18, § único do Decreto nº 47.611/2019. A atualização desta relação se dará por intermédio da Diretoria de Compras do Centro de Serviços Compartilhados da Secretaria de Estado de Planejamento e Gestão, após a publicação de cada termo.",
-  "homepage": "http://dados.mg.gov.br/dataset/doacoes-realizadas-ao-governo",
   "private": "false",
-  "state": "active",
-  "update":"true"
+  "state": "active"
 }
