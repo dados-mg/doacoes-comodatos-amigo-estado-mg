@@ -86,7 +86,7 @@
           {
             "name": "INTEGRA_TERMO_DOACAO_COMODATO",
             "type": "string",
-            "format": "default",
+            "format": "URI",
             "title": "Íntegra Termo Doação",
             "description": "Link para Íntegra do termo de doação ou comodato."
           }
