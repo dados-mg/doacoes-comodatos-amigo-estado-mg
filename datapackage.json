@@ -70,10 +70,12 @@
           },
           {
             "name": "VALOR",
-            "type": "string",
+            "type": "number",
             "format": "default",
             "title": "Valor",
-            "description": "Valor estimado do bem ou serviço doado ou oferecido em comodato."
+            "description": "Valor estimado do bem ou serviço doado ou oferecido em comodato, em reais.",
+            "groupChar":".",
+            "decimalChar":","
           },
           {
             "name": "PROCESSO_SEI",
