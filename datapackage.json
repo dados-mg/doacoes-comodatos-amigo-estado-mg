@@ -74,7 +74,8 @@
             "title": "Valor",
             "description": "Valor estimado do bem ou serviço doado ou oferecido em comodato.",
             "groupChar":".",
-            "decimalChar":","
+            "decimalChar":",",
+            "bareNumber": "false"
           },
           {
             "name": "PROCESSO_SEI",
