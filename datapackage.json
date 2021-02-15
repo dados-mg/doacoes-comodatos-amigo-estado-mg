@@ -70,12 +70,21 @@
           {
             "name": "VALOR",
             "type": "number",
-            "format": "other",
+            "format": "default",
             "title": "Valor",
-            "description": "Valor estimado do bem ou serviço doado ou oferecido em comodato.",
+            "description": "Valor estimado do bem ou serviço doado ou oferecido em comodato. Pode ser em moeda nacional ou estrangeira.",
             "groupChar":".",
-            "decimalChar":",",
-            "bareNumber": true
+            "decimalChar":","
+          },
+          {
+            "name": "MOEDA",
+            "type": "string",
+            "format": "default",
+            "title": "Moeda",
+            "description": "Moeda corrente do valor da doação ou comodato. Valores possíveis: BRL (reais) ou EUR (euros).",
+            "constraints": {
+            "pattern": "^[A-Z]{3}$"
+            }
           },
           {
             "name": "PROCESSO_SEI",
