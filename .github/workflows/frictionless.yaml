@@ -4,6 +4,11 @@
 name: frictionless
 
 on: [push]
+
+main:
+  tasks:
+    - source: data/datapackage.json
+      type: package
       
 jobs:
   validate:
