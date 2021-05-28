@@ -7,7 +7,7 @@ on: [push]
 
 main:
   tasks:
-    - source: data/datapackage.json
+    - source: datapackage.json
       type: package
       
 jobs:
